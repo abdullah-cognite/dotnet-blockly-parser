@@ -1,0 +1,36 @@
+<xml xmlns="https://developers.google.com/blockly/xml">
+  <variables>
+    <variable id="dO}ep_BBC;jSo=%2.gVR">VAR</variable>
+  </variables>
+  <block type="variables_set" id="G75t?g1d=xcy8SqklXUd" x="312" y="88">
+    <field name="VAR" id="dO}ep_BBC;jSo=%2.gVR">VAR</field>
+    <value name="VALUE">
+      <block type="text" id="wT?_Zq%kO]8z|5)5_tQY">
+        <field name="TEXT">JK</field>
+      </block>
+    </value>
+    <next>
+      <block type="controls_repeat_ext" id="$;.6=])r*pTA`rx8@H;K">
+        <value name="TIMES">
+          <shadow type="math_number" id="_(}ol~k4w#L$d^uxS%w=">
+            <field name="NUM">10</field>
+          </shadow>
+        </value>
+        <statement name="DO">
+          <block type="my_custom_block" id="2">
+            <field name="MY_FIELD">1</field>
+            <value name="MY_VALUE">
+                <block type="text">
+                    <field name="TEXT">JK</field>  
+                </block> 
+            </value>
+          </block>
+          
+        </statement>
+      </block>
+    </next>
+  </block>
+  <block type="text" id="J54OJ7(NVpC:=#L=p=^9" x="612" y="238">
+    <field name="TEXT"></field>
+  </block>
+</xml>

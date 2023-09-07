@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>dotnet_experiments</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+
+    <PackageReference Include="IronBlock" Version="1.0.17" />
+    <PackageReference Include="Jint" Version="3.0.0-beta-2051" />
+  </ItemGroup>
+
+</Project>
