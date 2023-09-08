@@ -8,19 +8,10 @@
     ".NETCoreApp,Version=v7.0": {
       "dotnet-experiments/1.0.0": {
         "dependencies": {
-          "IronBlock": "1.0.17",
-          "Jint": "3.0.0-beta-2051"
+          "IronBlock": "1.0.17"
         },
         "runtime": {
           "dotnet-experiments.dll": {}
-        }
-      },
-      "Esprima/3.0.0-rc-04": {
-        "runtime": {
-          "lib/netstandard2.1/Esprima.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.0"
-          }
         }
       },
       "IronBlock/1.0.17": {
@@ -31,17 +22,6 @@
           "lib/netstandard2.0/IronBlock.dll": {
             "assemblyVersion": "1.0.17.0",
             "fileVersion": "1.0.17.0"
-          }
-        }
-      },
-      "Jint/3.0.0-beta-2051": {
-        "dependencies": {
-          "Esprima": "3.0.0-rc-04"
-        },
-        "runtime": {
-          "lib/net6.0/Jint.dll": {
-            "assemblyVersion": "3.0.0.0",
-            "fileVersion": "3.0.0.0"
           }
         }
       },
@@ -504,26 +484,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Esprima/3.0.0-rc-04": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-EGEjkbLGpeJOpCLBrhxnCPpBPShpdqVU+9LQFLdCanI3DtOvLS7jlHv+oHk+ClamJkGiTynumrroKxw6HWwZkA==",
-      "path": "esprima/3.0.0-rc-04",
-      "hashPath": "esprima.3.0.0-rc-04.nupkg.sha512"
-    },
     "IronBlock/1.0.17": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-V1tFub4zM9we4CwT8lpbGYe7NZ51PlPlKuGtig4z4FBzDWoob4RUV1otiBFl8HuAP5HfG3ZrSSlyXK1jXlvC0w==",
       "path": "ironblock/1.0.17",
       "hashPath": "ironblock.1.0.17.nupkg.sha512"
-    },
-    "Jint/3.0.0-beta-2051": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-GdIqR0gFdQRnD51qy1s0UD9Q0NitI7G4c/Y/gllrVEamHbtxGtcC5U4ruYIDDev3Wiu+4a1mJJcLnCcPvRlxdw==",
-      "path": "jint/3.0.0-beta-2051",
-      "hashPath": "jint.3.0.0-beta-2051.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.Analyzers/3.0.0": {
       "type": "package",
